@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D8127178E487BF6F83E1C75 /* Pods_Stampay_Copy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1115F13CC6EB48CE6029C2B /* Pods_Stampay_Copy.framework */; };
+		461CAE15221DCE6900539868 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CAE14221DCE6900539868 /* AppDelegate.swift */; };
+		461CAE17221DCE6900539868 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CAE16221DCE6900539868 /* HomeController.swift */; };
+		461CAE1A221DCE6900539868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461CAE18221DCE6900539868 /* Main.storyboard */; };
+		461CAE1C221DCE6A00539868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461CAE1B221DCE6A00539868 /* Assets.xcassets */; };
+		461CAE1F221DCE6A00539868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461CAE1D221DCE6A00539868 /* LaunchScreen.storyboard */; };
+		461CAE27221DD2E500539868 /* AutoLayoutExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CAE26221DD2E500539868 /* AutoLayoutExtension.swift */; };
+		461CAE29221DD38500539868 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CAE28221DD38500539868 /* Model.swift */; };
+		461CAE2B221DD58300539868 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CAE2A221DD58300539868 /* PageCell.swift */; };
+		461CAE2D221EE3B400539868 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CAE2C221EE3B400539868 /* RegisterController.swift */; };
+		461CAE2F221EFC7600539868 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CAE2E221EFC7600539868 /* CameraController.swift */; };
+		461CAE3122203F7900539868 /* CreateAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CAE3022203F7900539868 /* CreateAccountController.swift */; };
+		469E24912222AD37002425CC /* HandlingErrorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469E24902222AD37002425CC /* HandlingErrorEnum.swift */; };
+		469E24932222B611002425CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 469E24922222B611002425CC /* GoogleService-Info.plist */; };
+		469E2495222317B8002425CC /* UIViewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469E2494222317B8002425CC /* UIViewTransition.swift */; };
+		469E24972223325A002425CC /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469E24962223325A002425CC /* AuthenticationServices.framework */; };
+		469E249922242EBA002425CC /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469E249822242EBA002425CC /* LoginController.swift */; };
+		469E249B22244B46002425CC /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469E249A22244B46002425CC /* MainTabBarController.swift */; };
+		469E249D22244CA4002425CC /* NearbyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469E249C22244CA4002425CC /* NearbyController.swift */; };
+		469E249F22244CAF002425CC /* MyCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469E249E22244CAF002425CC /* MyCardController.swift */; };
+		469E24A122244CBE002425CC /* MeinStampayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469E24A022244CBE002425CC /* MeinStampayController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		033FBC17C3AC33D63905C211 /* Pods-Stampay_Copy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stampay_Copy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stampay_Copy/Pods-Stampay_Copy.release.xcconfig"; sourceTree = "<group>"; };
+		461CAE11221DCE6900539868 /* Stampay_Copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stampay_Copy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		461CAE14221DCE6900539868 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		461CAE16221DCE6900539868 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		461CAE19221DCE6900539868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		461CAE1B221DCE6A00539868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		461CAE1E221DCE6A00539868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		461CAE20221DCE6A00539868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		461CAE26221DD2E500539868 /* AutoLayoutExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutExtension.swift; sourceTree = "<group>"; };
+		461CAE28221DD38500539868 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		461CAE2A221DD58300539868 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		461CAE2C221EE3B400539868 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		461CAE2E221EFC7600539868 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		461CAE3022203F7900539868 /* CreateAccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountController.swift; sourceTree = "<group>"; };
+		466ADE2322208D31001B9D0C /* Stampay_Copy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stampay_Copy.entitlements; sourceTree = "<group>"; };
+		469E24902222AD37002425CC /* HandlingErrorEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandlingErrorEnum.swift; sourceTree = "<group>"; };
+		469E24922222B611002425CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		469E2494222317B8002425CC /* UIViewTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewTransition.swift; sourceTree = "<group>"; };
+		469E24962223325A002425CC /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		469E249822242EBA002425CC /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		469E249A22244B46002425CC /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		469E249C22244CA4002425CC /* NearbyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyController.swift; sourceTree = "<group>"; };
+		469E249E22244CAF002425CC /* MyCardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardController.swift; sourceTree = "<group>"; };
+		469E24A022244CBE002425CC /* MeinStampayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeinStampayController.swift; sourceTree = "<group>"; };
+		6F19BF5C7493F4111406E854 /* Pods-Stampay_Copy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stampay_Copy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stampay_Copy/Pods-Stampay_Copy.debug.xcconfig"; sourceTree = "<group>"; };
+		D1115F13CC6EB48CE6029C2B /* Pods_Stampay_Copy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stampay_Copy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		461CAE0E221DCE6900539868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469E24972223325A002425CC /* AuthenticationServices.framework in Frameworks */,
+				3D8127178E487BF6F83E1C75 /* Pods_Stampay_Copy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		461CAE08221DCE6900539868 = {
+			isa = PBXGroup;
+			children = (
+				461CAE13221DCE6900539868 /* Stampay_Copy */,
+				461CAE12221DCE6900539868 /* Products */,
+				DB9D1F1352DB87053798207F /* Pods */,
+				9EB4CAA7F5155DE726187D82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		461CAE12221DCE6900539868 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				461CAE11221DCE6900539868 /* Stampay_Copy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		461CAE13221DCE6900539868 /* Stampay_Copy */ = {
+			isa = PBXGroup;
+			children = (
+				466ADE2322208D31001B9D0C /* Stampay_Copy.entitlements */,
+				461CAE14221DCE6900539868 /* AppDelegate.swift */,
+				469E24A722248A2B002425CC /* View */,
+				469E24A222248983002425CC /* Extensions */,
+				469E24A3222489AD002425CC /* Helpers */,
+				469E24A4222489D4002425CC /* Model */,
+				469E24A5222489E2002425CC /* Controllers */,
+				469E24A622248A15002425CC /* MainTabBarControllers */,
+				461CAE18221DCE6900539868 /* Main.storyboard */,
+				461CAE1B221DCE6A00539868 /* Assets.xcassets */,
+				461CAE1D221DCE6A00539868 /* LaunchScreen.storyboard */,
+				461CAE20221DCE6A00539868 /* Info.plist */,
+				469E24922222B611002425CC /* GoogleService-Info.plist */,
+			);
+			path = Stampay_Copy;
+			sourceTree = "<group>";
+		};
+		469E24A222248983002425CC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				461CAE26221DD2E500539868 /* AutoLayoutExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		469E24A3222489AD002425CC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				469E2494222317B8002425CC /* UIViewTransition.swift */,
+				469E24902222AD37002425CC /* HandlingErrorEnum.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		469E24A4222489D4002425CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				461CAE28221DD38500539868 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		469E24A5222489E2002425CC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				461CAE16221DCE6900539868 /* HomeController.swift */,
+				461CAE2C221EE3B400539868 /* RegisterController.swift */,
+				461CAE2E221EFC7600539868 /* CameraController.swift */,
+				461CAE3022203F7900539868 /* CreateAccountController.swift */,
+				469E249822242EBA002425CC /* LoginController.swift */,
+				469E249A22244B46002425CC /* MainTabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		469E24A622248A15002425CC /* MainTabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				469E24A022244CBE002425CC /* MeinStampayController.swift */,
+				469E249E22244CAF002425CC /* MyCardController.swift */,
+				469E249C22244CA4002425CC /* NearbyController.swift */,
+			);
+			path = MainTabBarControllers;
+			sourceTree = "<group>";
+		};
+		469E24A722248A2B002425CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				461CAE2A221DD58300539868 /* PageCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9EB4CAA7F5155DE726187D82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				469E24962223325A002425CC /* AuthenticationServices.framework */,
+				D1115F13CC6EB48CE6029C2B /* Pods_Stampay_Copy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB9D1F1352DB87053798207F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F19BF5C7493F4111406E854 /* Pods-Stampay_Copy.debug.xcconfig */,
+				033FBC17C3AC33D63905C211 /* Pods-Stampay_Copy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		461CAE10221DCE6900539868 /* Stampay_Copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461CAE23221DCE6A00539868 /* Build configuration list for PBXNativeTarget "Stampay_Copy" */;
+			buildPhases = (
+				76C3F5760733852EB9E522F5 /* [CP] Check Pods Manifest.lock */,
+				461CAE0D221DCE6900539868 /* Sources */,
+				461CAE0E221DCE6900539868 /* Frameworks */,
+				461CAE0F221DCE6900539868 /* Resources */,
+				1BFAE26AE4EA783CB2D65CBC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stampay_Copy;
+			productName = Stampay_Copy;
+			productReference = 461CAE11221DCE6900539868 /* Stampay_Copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		461CAE09221DCE6900539868 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Petar Ivic";
+				TargetAttributes = {
+					461CAE10221DCE6900539868 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.AutoFillCredentialProvider = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 461CAE0C221DCE6900539868 /* Build configuration list for PBXProject "Stampay_Copy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 461CAE08221DCE6900539868;
+			productRefGroup = 461CAE12221DCE6900539868 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				461CAE10221DCE6900539868 /* Stampay_Copy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		461CAE0F221DCE6900539868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461CAE1F221DCE6A00539868 /* LaunchScreen.storyboard in Resources */,
+				461CAE1C221DCE6A00539868 /* Assets.xcassets in Resources */,
+				461CAE1A221DCE6900539868 /* Main.storyboard in Resources */,
+				469E24932222B611002425CC /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BFAE26AE4EA783CB2D65CBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Stampay_Copy/Pods-Stampay_Copy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKPlacesKit/FBSDKPlacesKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKPlacesKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stampay_Copy/Pods-Stampay_Copy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76C3F5760733852EB9E522F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stampay_Copy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		461CAE0D221DCE6900539868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469E249B22244B46002425CC /* MainTabBarController.swift in Sources */,
+				469E24A122244CBE002425CC /* MeinStampayController.swift in Sources */,
+				469E249922242EBA002425CC /* LoginController.swift in Sources */,
+				461CAE27221DD2E500539868 /* AutoLayoutExtension.swift in Sources */,
+				461CAE2B221DD58300539868 /* PageCell.swift in Sources */,
+				461CAE2F221EFC7600539868 /* CameraController.swift in Sources */,
+				469E249F22244CAF002425CC /* MyCardController.swift in Sources */,
+				461CAE2D221EE3B400539868 /* RegisterController.swift in Sources */,
+				469E249D22244CA4002425CC /* NearbyController.swift in Sources */,
+				461CAE17221DCE6900539868 /* HomeController.swift in Sources */,
+				461CAE3122203F7900539868 /* CreateAccountController.swift in Sources */,
+				469E24912222AD37002425CC /* HandlingErrorEnum.swift in Sources */,
+				469E2495222317B8002425CC /* UIViewTransition.swift in Sources */,
+				461CAE29221DD38500539868 /* Model.swift in Sources */,
+				461CAE15221DCE6900539868 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		461CAE18221DCE6900539868 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				461CAE19221DCE6900539868 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		461CAE1D221DCE6A00539868 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				461CAE1E221DCE6A00539868 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		461CAE21221DCE6A00539868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = NO;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_COMMA = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = NO;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		461CAE22221DCE6A00539868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = NO;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_COMMA = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = NO;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		461CAE24221DCE6B00539868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F19BF5C7493F4111406E854 /* Pods-Stampay_Copy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Stampay_Copy/Stampay_Copy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3U6B8VC6S;
+				INFOPLIST_FILE = Stampay_Copy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ivic.development7.Stampay-Copy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		461CAE25221DCE6B00539868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 033FBC17C3AC33D63905C211 /* Pods-Stampay_Copy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Stampay_Copy/Stampay_Copy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3U6B8VC6S;
+				INFOPLIST_FILE = Stampay_Copy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ivic.development7.Stampay-Copy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		461CAE0C221DCE6900539868 /* Build configuration list for PBXProject "Stampay_Copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461CAE21221DCE6A00539868 /* Debug */,
+				461CAE22221DCE6A00539868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		461CAE23221DCE6A00539868 /* Build configuration list for PBXNativeTarget "Stampay_Copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461CAE24221DCE6B00539868 /* Debug */,
+				461CAE25221DCE6B00539868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 461CAE09221DCE6900539868 /* Project object */;
+}
